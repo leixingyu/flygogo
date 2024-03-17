@@ -1150,7 +1150,7 @@
 		}
 
 		#header a {
-			color: #ffffff;
+			color: ##24120F;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -1189,8 +1189,8 @@
 			-webkit-pointer-events: auto;
 			-ms-pointer-events: auto;
 			pointer-events: auto;
-			border-style: solid;
-			border-color: #ffffff;
+			/* border-style: solid; */
+			border-color: #24120F;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
@@ -1240,7 +1240,7 @@
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		background: rgba(255, 255, 255, 0.375);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -1271,7 +1271,7 @@
 		}
 
 		#nav a {
-			color: #fff;
+			color: #24120F;
 			border-bottom:none;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
@@ -2338,10 +2338,16 @@
 						font-size: 40pt;
 						margin-bottom: 10px;
 					}
+					
+					#me header > h3 {
+						text-transform : none;
+						font-size: 25pt;
+						margin-bottom: 10px;
+					}
 
 					#me header > p {
 						letter-spacing: -0.015em;
-						font-size: 14pt;
+						font-size: 16pt;
 						line-height: 1.5;
 					}
 					
